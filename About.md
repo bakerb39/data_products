@@ -14,4 +14,5 @@ To use the app, a user filters the results using the following:
 *Emergency services Input Select box - Choose 'Yes' (default) or 'No'
 *Hospital Ownership Checkboxes - Choose all (default) or one or more checkboxes
 
-The GitHub repository for this app and data are located:
+The GitHub repository for this app and data are located here:
+https://github.com/bakerb39/data_products

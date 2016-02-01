@@ -12,8 +12,8 @@ library(dplyr)
 #Download the data file and unzip.
 
 if (!"hospType_data.csv" %in% dir("./data/")) {
-  download.file("http://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv", destfile = "data/hostType_data.csv")
-  unzip2("data/hospType_data.csv", overwrite=T, remove=F)
+  download.file("https://github.com/bakerb39/data_products/blob/master/data/hospType_data.csv", destfile = "data/hostType_data.csv")
+  unzip("data/hospType_data.csv", overwrite=T, remove=F)
 }
 
 if (!"hospType_data" %in% ls()) {

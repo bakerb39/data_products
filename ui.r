@@ -109,7 +109,7 @@ shinyUI(navbarPage("Select the best type of hospital to meet your needs",
                    ),
                    tabPanel("About",
                             mainPanel(
-                              includeMarkdown("about.md")
+                              includeMarkdown("About.md")
                             )
                    )
 )
